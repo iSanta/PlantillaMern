@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 //se le indica a la app cual sera el puerto para el backend
 app.set('port', process.env.PORT || 4000);
-//se le indica a la app el tipo de erramientas que usara
+//se le indica a la app el tipo de herramientas que usara
 app.use(cors());
 app.use(express.json());
 
